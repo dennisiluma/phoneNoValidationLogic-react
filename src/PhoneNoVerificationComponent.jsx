@@ -33,7 +33,7 @@ const PhoneNoVerificationComponent = () => {
 
     return (
         <div className='container'>
-            <h1>Phone Number Verification Demo</h1>
+            <h1>Phone Number Validation Demo</h1>
             <form action="">
                 <input type="text" value={name} placeholder='Enter Name' />
                 <input maxLength={'15'} onChange={e => handlePhoneNoInputeField(e.target.value)} value={phoneNo} type="tel" placeholder='Enter Phone No' />
