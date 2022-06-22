@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+input{
+  width: 50%;
+  padding: 15px;
+  margin-top: 8px;
+}
+[type='button']{
+  background-color: bisque;
+  font-weight: 700;
+  width: 52.5%;
+}
+.container{
+  margin-top: 100px;
+}
+
